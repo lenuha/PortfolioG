@@ -1,0 +1,181 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  src: url(fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+:root {
+  --main-color: #12ac4d;
+  --header-logo: "Oswald", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: url(img/bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(27, 29, 60, 0.8);
+}
+.wrapper {
+  width: 1170px;
+  max-width: 100%;
+  min-height: 100%;
+  height: 1200px;
+  margin: 0 auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.main-header {
+  display: flex;
+  height: 9rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #82c8eb;
+}
+.nav-item__link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+  display: block;
+  font-weight: 400;
+  font-size: 28px;
+  transition: all 0.3s ease-in;
+  margin-left: 30px;
+}
+.nav-item__link:hover {
+  color: var(--main-color);
+}
+.main-content {
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+.main-content__title {
+  font-size: 6rem;
+  color: #11da4a;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-shadow: 3px 3px 5px #ffffff;
+}
+.main-content__title span {
+  color: var(--main-color);
+  font-size: 8rem;
+}
+.main-content__descript {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  color: #e1b70c;
+  line-height: 40px;
+  padding-top: 3rem;
+}
+#html {
+  float: right;
+  width: 400px;
+  height: 400px;
+}
+h2 {
+  margin-top: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: #fff;
+}
+.btn {
+  background-color: transparent;
+  font-size: 2.2rem;
+  color: #fff;
+  border: 3px solid var(--main-color);
+  border-radius: 17px;
+  padding: 15px 20px;
+  margin-top: 2rem;
+}
+#synergy {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+.muy_job {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #e1b70c;
+  margin-top: 30px;
+}
+.block-image {
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7.6rem;
+}
+.image {
+  width: 20.2rem;
+  max-width: 100%;
+  height: 13rem;
+  border: 4px solid var(--main-color);
+  border-radius: 17px;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: var(--main-color);
+  margin-top: 2rem;
+}
+form {
+  height: 20px;
+  width: 30px;
+}
+.footer {
+  background-color: #eef2e3;
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.mail {
+  margin-top: 40px;
+}
+.mail #mailto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--main-color);
+  text-decoration: none;
+}
+#vk {
+  width: 80px;
+  height: 50px;
+  margin-top: 20px;
+}
+.result {
+  font-size: 30px;
+  margin-top: 30px;
+  color: #dd5f78;
+}
